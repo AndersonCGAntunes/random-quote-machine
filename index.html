@@ -4,34 +4,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="style/styles.css"/>
+        <script src="scripts/scripts.js"></script>
         <title>Random Quote Machine</title>
     </head>
     <body>
-        <p class="lead">Primeira <mark>Linha</mark></p>
-        <div class="table-responsive">
-            <table class="table table-striped table-bordered">
-                <tr>
-                    <td>Um</td>
-                    <td>Dois</td>
-                    <td>Três</td>
-                    <td>Quatro</td>
-                </tr>
-                <tr>
-                    <td>Cinco</td>
-                    <td>Seis</td>
-                    <td>Sete</td>
-                    <td>Oito</td>
-                </tr>
-                <tr>
-                    <td>Nove</td>
-                    <td>Dez</td>
-                    <td>Onze</td>
-                    <td>Doze</td>
-                </tr>
-            </table>
+      <main id="principal">
+        <div id="quote-box">
+          <div class="quote-text">
+            <i class="fa fa-quote-left"> </i><span id="text"></span>
+          </div>
+          <div class="quote-author">- <span id="author"></span>
+
+          </div>
+          <div class="botoes">
+            <a class="button" onclick="fraseEscolhida()" href="https://twitter.com/intent/tweet" id="tweet-quote" title="Tweet this quote!" target="_top"><i class="fa fa-twitter"></i></a>
+            <button class="button" id="new-quote">New quote</button>
+          </div>
         </div>
-        <blockquote>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-          </blockquote>
+      </main>
     </body>
 </html>

@@ -1,3 +1,74 @@
+#principal {
+    margin: 150px auto;
+    padding: 30px;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    align-items: center;
+    justify-content: right;
+    border-radius: 3px;
+}
+
 body {
-    margin: auto;
+    background-color: coral;
+}
+
+#new-quote {
+    color: white;
+    background-color: salmon;
+    border: none;
+    border-radius: 3px;
+}
+
+.quote-author, #text {
+    color: coral;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+#author {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+#tweet-quote {
+    width: 30px;
+}
+
+.button {
+    float: inline-end;
+    width: 100px;
+}
+
+#text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.7rem;
+}
+
+#quote-box {
+    height: 340px;
+    display: grid;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+#tweet-quote {
+    background-color: salmon;
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+}
+
+.fa-quote-left {
+    color: salmon;
+    padding-right: 5px;
 }
